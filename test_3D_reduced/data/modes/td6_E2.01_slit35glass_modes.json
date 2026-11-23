@@ -1,0 +1,207 @@
+{
+  "applies_to": {
+    "energy_eV": 2.01,
+    "k0_per_um": 10.186139185848447,
+    "eps": {
+      "water": {
+        "re": 1.77,
+        "im": 0.0
+      },
+      "silver": {
+        "re": -17.237872735468187,
+        "im": 0.49820267993550266
+      },
+      "gap": {
+        "re": 2.25,
+        "im": 0.0
+      },
+      "glass": {
+        "re": 2.295225,
+        "im": 0.0
+      },
+      "chromium": {
+        "re": -0.8410999999999991,
+        "im": 20.921999999999997
+      }
+    },
+    "stacks_t_um": {
+      "central gap": [
+        0.02,
+        0.006,
+        0.02
+      ],
+      "plateau gap": [
+        0.02,
+        0.006,
+        0.04,
+        0.01
+      ]
+    }
+  },
+  "modes": [
+    {
+      "label": "central gap",
+      "kind": "bound",
+      "stack": {
+        "name": "central",
+        "eps_sub": {
+          "re": 2.295225,
+          "im": 0.0
+        },
+        "eps_sup": {
+          "re": 1.77,
+          "im": 0.0
+        },
+        "leaky": false,
+        "layers": [
+          {
+            "name": "lower Ag",
+            "eps": {
+              "re": -17.237872735468187,
+              "im": 0.49820267993550266
+            },
+            "t_um": 0.02
+          },
+          {
+            "name": "gap",
+            "eps": {
+              "re": 2.25,
+              "im": 0.0
+            },
+            "t_um": 0.006
+          },
+          {
+            "name": "upper Ag",
+            "eps": {
+              "re": -17.237872735468187,
+              "im": 0.49820267993550266
+            },
+            "t_um": 0.02
+          }
+        ]
+      },
+      "beta_per_um": {
+        "re": 63.602032975723105,
+        "im": 1.0217279797484424
+      }
+    },
+    {
+      "label": "plateau gap",
+      "kind": "bound",
+      "stack": {
+        "name": "plateau",
+        "eps_sub": {
+          "re": 2.295225,
+          "im": 0.0
+        },
+        "eps_sup": {
+          "re": 1.77,
+          "im": 0.0
+        },
+        "leaky": false,
+        "layers": [
+          {
+            "name": "lower Ag",
+            "eps": {
+              "re": -17.237872735468187,
+              "im": 0.49820267993550266
+            },
+            "t_um": 0.02
+          },
+          {
+            "name": "gap",
+            "eps": {
+              "re": 2.25,
+              "im": 0.0
+            },
+            "t_um": 0.006
+          },
+          {
+            "name": "upper Ag",
+            "eps": {
+              "re": -17.237872735468187,
+              "im": 0.49820267993550266
+            },
+            "t_um": 0.04
+          },
+          {
+            "name": "Cr",
+            "eps": {
+              "re": -0.8410999999999991,
+              "im": 20.921999999999997
+            },
+            "t_um": 0.01
+          }
+        ]
+      },
+      "beta_per_um": {
+        "re": 61.30998291132871,
+        "im": 1.0826483776301539
+      }
+    }
+  ],
+  "launch_projection": {
+    "applies_to": {
+      "launch": {
+        "H0_A_per_m": 1.0,
+        "intensity_fwhm_nm": 500.0,
+        "focus_left_nm": [
+          463.0,
+          -46.0
+        ],
+        "sheet_z_nm": -346.0
+      },
+      "observation": {
+        "x_origin_nm": 1526.0,
+        "z0_nm": 10.0
+      },
+      "device": {
+        "physics": {
+          "energy_eV": 2.01,
+          "eps_water": 1.77,
+          "n_glass": 1.515,
+          "eps_gap": 2.25,
+          "eps_slit": 2.295225,
+          "ag_table": "Ag_JC.yml",
+          "eps_ag": null,
+          "eps_cr": null
+        },
+        "layers_nm": {
+          "td": 6.0,
+          "tm": 20.0,
+          "plateau_excess": 20.0,
+          "cr": 10.0,
+          "use_cr": true
+        },
+        "lateral_nm": {
+          "n_slits": 10,
+          "period": 99.0,
+          "slit_width": 35.0,
+          "margin": 100.0,
+          "taper": 500.0,
+          "taper_end_separation": 10000.0,
+          "outer_margin": 1500.0
+        }
+      }
+    },
+    "A0_A_per_m": {
+      "re": -0.015136803097554757,
+      "im": -0.007520586702376843
+    },
+    "u_SPP_origin_V_per_m": {
+      "x": {
+        "re": 3.861468043207809,
+        "im": -7.6633094715332435
+      },
+      "z": {
+        "re": 7.846287487989716,
+        "im": 3.946159344831561
+      }
+    },
+    "calibration": {
+      "P_V2_per_m2": 150.7736484241917,
+      "H_in_A_per_m": 0.03137207030525111,
+      "chi_rad": -3.1367417287258057
+    }
+  }
+}

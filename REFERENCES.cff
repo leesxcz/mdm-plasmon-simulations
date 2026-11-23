@@ -1,0 +1,144 @@
+cff-version: 1.2.0
+type: software
+title: "mdm-plasmon-simulations"
+message: "Technical references for the simulation methods, optical data, and software. The paper citation is in CITATION.md."
+authors:
+  - family-names: Zhou
+    given-names: Junfeng
+references:
+  - type: report
+    authors:
+      - family-names: "Schöberl"
+        given-names: Joachim
+    title: "C++11 Implementation of Finite Elements in NGSolve"
+    number: "30/2014"
+    institution:
+      name: "Institute for Analysis and Scientific Computing, Vienna University of Technology"
+    year: 2014
+    url: "https://www.ngsolve.org/_static/ngs-cpp11.pdf"
+  - type: article
+    authors:
+      - family-names: "Schöberl"
+        given-names: Joachim
+    title: "NETGEN – An advancing front 2D/3D-mesh generator based on abstract rules"
+    journal: "Computing and Visualization in Science"
+    volume: 1
+    issue: 1
+    start: 41
+    end: 52
+    year: 1997
+    doi: "10.1007/s007910050004"
+  - type: article
+    authors:
+      - family-names: "Dionne"
+        given-names: "J. A."
+      - family-names: "Sweatlock"
+        given-names: "L. A."
+      - family-names: "Atwater"
+        given-names: "H. A."
+      - family-names: "Polman"
+        given-names: "A."
+    title: "Plasmon slot waveguides: Towards chip-scale propagation with subwavelength-scale localization"
+    journal: "Physical Review B"
+    volume: 73
+    start: "035407"
+    year: 2006
+    doi: "10.1103/PhysRevB.73.035407"
+  - type: article
+    authors:
+      - family-names: "Byrnes"
+        given-names: "Steven J."
+    title: "Multilayer optical calculations"
+    journal: "arXiv"
+    year: 2016
+    doi: "10.48550/arXiv.1603.02720"
+    url: "https://arxiv.org/abs/1603.02720"
+  - type: article
+    authors:
+      - family-names: "Demésy"
+        given-names: "Guillaume"
+      - family-names: "Zolla"
+        given-names: "Frédéric"
+      - family-names: "Nicolet"
+        given-names: "André"
+      - family-names: "Vial"
+        given-names: "Benjamin"
+    title: "Finite Element Method (Chapter from \"Gratings: Theory and Numeric Applications\")"
+    journal: "arXiv"
+    year: 2013
+    doi: "10.48550/arXiv.1302.1032"
+    url: "https://arxiv.org/abs/1302.1032"
+    notes: "Author-posted copy of chapter 5 of Gratings: Theory and Numeric Applications, edited by E. Popov, first edition (2012)."
+  - type: article
+    authors:
+      - family-names: "Svendsen"
+        given-names: "Guro K."
+      - family-names: "Haakestad"
+        given-names: "Magnus W."
+      - family-names: "Skaar"
+        given-names: "Johannes"
+    title: "Reciprocity and the scattering matrix of waveguide modes"
+    journal: "Physical Review A"
+    volume: 87
+    start: "013838"
+    year: 2013
+    doi: "10.1103/PhysRevA.87.013838"
+  - type: thesis
+    authors:
+      - family-names: "Ivanova"
+        given-names: "A."
+    title: "Dimensionality reduction in computational photonics"
+    institution:
+      name: "University of Twente"
+    year: 2010
+    doi: "10.3990/1.9789036529976"
+  - type: article
+    authors:
+      - family-names: "Chew"
+        given-names: "W. C."
+      - family-names: "Weedon"
+        given-names: "W. H."
+    title: "A 3D perfectly matched medium from modified Maxwell’s equations with stretched coordinates"
+    journal: "Microwave and Optical Technology Letters"
+    volume: 7
+    issue: 13
+    start: 599
+    end: 604
+    year: 1994
+    doi: "10.1002/mop.4650071304"
+  - type: article
+    authors:
+      - family-names: "Johnson"
+        given-names: "P. B."
+      - family-names: "Christy"
+        given-names: "R. W."
+    title: "Optical Constants of the Noble Metals"
+    journal: "Physical Review B"
+    volume: 6
+    start: 4370
+    end: 4379
+    year: 1972
+    doi: "10.1103/PhysRevB.6.4370"
+  - type: article
+    authors:
+      - family-names: "Johnson"
+        given-names: "P. B."
+      - family-names: "Christy"
+        given-names: "R. W."
+    title: "Optical constants of transition metals: Ti, V, Cr, Mn, Fe, Co, Ni, and Pd"
+    journal: "Physical Review B"
+    volume: 9
+    start: 5056
+    end: 5070
+    year: 1974
+    doi: "10.1103/PhysRevB.9.5056"
+  - type: article
+    authors:
+      - family-names: "Polyanskiy"
+        given-names: "M. N."
+    title: "Refractiveindex.info database of optical constants"
+    journal: "Scientific Data"
+    volume: 11
+    start: 94
+    year: 2024
+    doi: "10.1038/s41597-023-02898-2"

@@ -1,0 +1,153 @@
+{
+ "description": "package default parameters (the run.py block of the completed package, 6 nm, 2.01 eV, oblique reference); output folders are named by the physics/stack, numerics and illumination levels and by every parameter that differs from these values; complex numbers as [re, im]",
+ "parameters": {
+  "display": {
+   "interference_map_limits": [
+    1e-05,
+    2.0
+   ],
+   "interference_windows_um": [
+    null,
+    [
+     0.0,
+     2.0
+    ]
+   ],
+   "model_family": {
+    "normal": "planar",
+    "oblique": "ideal"
+   }
+  },
+  "domain_nm": {
+   "glass_depth": 1000.0,
+   "water_height": 1000.0
+  },
+  "lateral_nm": {
+   "margin": 100.0,
+   "n_slits": 10,
+   "outer_margin": 1500.0,
+   "period": 99.0,
+   "slit_width": 49.5,
+   "taper": 500.0,
+   "taper_end_separation": 10000.0
+  },
+  "launch": {
+   "H0_A_per_m": 1.0,
+   "N": 32768,
+   "check_N": 65536,
+   "check_dx_nm": 0.5,
+   "coefficients": {
+    "left": [
+     1.0,
+     0.0
+    ],
+    "right": [
+     1.0,
+     0.0
+    ]
+   },
+   "dx_nm": 1.0,
+   "intensity_fwhm_nm": 500.0
+  },
+  "layers_nm": {
+   "cr": 10.0,
+   "plateau_excess": 20.0,
+   "td": 6.0,
+   "tm": 20.0,
+   "use_cr": true
+  },
+  "lines_nm": {
+   "backward_cut_offset": 300.0,
+   "cv_side_inset": 2.0,
+   "cv_top": 150.0,
+   "forward_cut_offsets": [
+    300.0,
+    500.0,
+    700.0
+   ],
+   "launch_sheet_below_stack": 300.0,
+   "observation_height": 10.0,
+   "reference_plane": 300.0,
+   "skin": 60.0
+  },
+  "mesh": {
+   "asset": "meshes/td6_h_reference",
+   "grading": 0.25,
+   "h_free": 60.0,
+   "h_gap": 3.0,
+   "h_metal": 6.0,
+   "h_scale": 1.0,
+   "h_skin": 10.0,
+   "h_slit": 6.0,
+   "order": 4,
+   "skin": 60.0
+  },
+  "normalization": {
+   "P_V2_per_m2": 162.42338586103568
+  },
+  "phases": {
+   "phi_T_rad": [
+    0.0,
+    2.0943951023931953,
+    4.1887902047863905
+   ],
+   "phi_map_rad": 2.0943951023931953
+  },
+  "physics": {
+   "ag_table": "Ag_JC.yml",
+   "energy_eV": 2.01,
+   "eps_ag": null,
+   "eps_cr": null,
+   "eps_gap": 2.25,
+   "eps_slit": 2.25,
+   "eps_water": 1.77,
+   "n_glass": 1.515
+  },
+  "pml": {
+   "strength": 12.0,
+   "thickness_nm": 600.0
+  },
+  "reference": {
+   "normal": {
+    "H0_A_per_m": 0.05033237780299994,
+    "alpha_deg": 0.0,
+    "amplitude": "fixed"
+   },
+   "oblique": {
+    "H_in_A_per_m": 0.03255872406561501,
+    "alpha_deg": 29.173006,
+    "gamma_in_per_um": 1.0217279797484424,
+    "quadrature": {
+     "check": [
+      1024,
+      20,
+      400
+     ],
+     "primary": [
+      512,
+      20,
+      200
+     ]
+    }
+   },
+   "preset": "oblique"
+  },
+  "sampling": {
+   "excitation_map": {
+    "dx_nm": 10.0,
+    "dz_nm": 2.0
+   },
+   "line_points": 5001,
+   "stack_map": {
+    "dx_nm": 5.0,
+    "dz_nm": 1.0,
+    "half_height_nm": 60.0
+   },
+   "water_map": {
+    "dx_nm": 10.0,
+    "dz_nm": 2.0,
+    "height_nm": 60.0
+   }
+  }
+ }
+}

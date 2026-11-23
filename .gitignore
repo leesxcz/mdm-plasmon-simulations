@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.cache/
+2Dsimulation/outputs/
+2Dsimulation/runs/
+test_3D_reduced/outputs/
+test_3D_reduced/runs/
